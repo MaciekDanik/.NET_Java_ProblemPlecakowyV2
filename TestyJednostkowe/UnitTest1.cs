@@ -98,5 +98,11 @@ namespace TestyJednostkowe
 
             Assert.AreEqual(0, result.getFinalItems().Count);
         }
+
+        [TestMethod]
+        public void JakisNowyTest() //y jeœli ¿aden przedmiot nie spe³nia ograniczeñ, to zwrócono puste rozwi¹zanie
+        {
+            //JESZCZE NIE WIEM CO BÊDZIE ROBI£
+        }
     }
 }
