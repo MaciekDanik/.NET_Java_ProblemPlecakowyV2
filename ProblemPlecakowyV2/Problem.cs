@@ -44,12 +44,6 @@ namespace ProblemPlecakowyV2
                     fianal_item.Add(item);
                     total_weight += item.getWeight();
                     total_value += item.getValue();
-
-                    //Console.Write("Weight: " + item.getWeight());
-                    //Console.Write(" Value: " + item.getValue());
-                    //Console.Write(" Ratio: " + item.getRatio() + "\n");
-
-                    //Console.WriteLine(item.ToString());
                 }
                 Console.WriteLine(item.ToString());
             }
